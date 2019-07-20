@@ -9,14 +9,17 @@
 </head>
 <body>
   <div class="header">
-    <h1><%= title %></h1>
-    <span>当你在注视屏幕的时候，周老师也在注视着你。</span>
+	  <h1><a href="http://1004535809.cf"> <%= title %></a></h1>
+	<!--<span>当你在注视屏幕的时候，周老师也在注视着你。</span>-->
   </div>
+
+  <% for (var i=1;i<2;++i) { %> <br> <% } %>
 
   <div class="searchDiv" onkeydown="monitor(event)">
     <div class="searchBorder">
       <div class="searchInput">
-        <div class="vdLsw"></div>
+		  <div class="vdLsw"></div>
+		  <span class="hb2Smf"></span>
         <input class="gLFyf" id="content" title="修改地址栏 '?engines=(Bing/Baidu/Google)' 修改默认搜索引擎">
       </div>
     </div> 
@@ -26,13 +29,14 @@
     <nav class="nav">
       <% 
       var color = [
-      "red", 
+      /* "red", 
       "orange",
       "green",
       "blue",
       "rebeccapurple",
       "purple",
-      "pink",
+	  "pink",*/
+	  "#357AEF",
       ];
       %>
       <% for (var i in nav) { %>

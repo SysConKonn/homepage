@@ -5,7 +5,7 @@ var linkList = require('../public/data').linkList;
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Home', nav: linkList });
+  res.render('index', { title: 'homepage', nav: linkList });
 });
 
 module.exports = router;

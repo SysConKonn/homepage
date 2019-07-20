@@ -8,8 +8,26 @@
 	z-index:3;
 	height:44px;
 	margin:0 auto;
-	width:482px;
+	// width:482px;
+	width: 550px;
 }
+/*
+.hb2Smf{
+	background:url('https://cdn.leakzero.com/mijisou/themes/entropage/img/icon_search.png?staticVersion=1559562262');
+	height: 20px;
+	width: 20px;
+	background-size:20px;
+	vertical-align: middle;
+}
+*/
+.hb2Smf {
+	background: url(https://cdn.leakzero.com/mijisou/themes/entropage/img/icon_search.png?staticVersion=1559562262) no-repeat center center;
+	height: 20px; 
+	width: 20px; 
+	background-size: 20px 20px;
+	margin-top: 6px;
+}
+//.hb2Smf{background-size:25px 25px;height:25px;width:20px}
 .searchDiv:hover {
 	box-shadow:0 1px 6px 0 rgba(32,33,36,0.28);
 	border-color:rgba(223,225,229,0)
@@ -18,7 +36,7 @@
 	flex:1;
 	display:flex;
 	padding:5px 8px 0 16px;
-	padding-left:20px;
+	padding-left:22px;
 }
 .gLFyf {
 	background-color:transparent;
@@ -31,7 +49,8 @@
 	display:flex;
 	flex:100%;
 	-webkit-tap-highlight-color:transparent;
-	margin-top:-37px
+	margin-top:-37px;
+	margin-right: 24px
 }
 .gLFyf {
 	height:39px !important;
@@ -45,7 +64,7 @@
 }
 .vdLsw {
 	color:transparent;
-	flex:100%;
+	flex:96%;
 	white-space:pre
 }
 .vdLsw {
@@ -54,9 +73,10 @@
 }
 
 .searchDiv {
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 input {
-  font-size: 20px;
+  font-size: 18px;
+  font-family: "Monaco"
 }

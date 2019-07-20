@@ -1,8 +1,9 @@
-@mixin MacType($font) {
+/*@mixin MacType($font) {
   font-weight: 600 !important;
   font-family: $font !important;
   text-shadow: 0.02em 0.02em 0.03em #b8b8b8 !important;
 }
+*/
 * {
   margin: 0px;
 }
@@ -14,7 +15,12 @@ body {
 .header {
   padding-bottom: 20px;
   h1 {
-    @include MacType("PristinaStd");
+	font-family: "Centaur";
+	// font-family: "Product Sans";
+	font-weight: lighter;
+	// @include MacType("PristinaStd");
+	// @include MacType("Centaur");
+	// @include MacType("Product Sans");
     font-size: 128px;
   }
   span {
@@ -22,8 +28,16 @@ body {
   }
 }
 @font-face {
+	font-family: "Centaur";
+	src: url('/fonts/Centaur.ttf');
+}
+@font-face {
 	font-family: "PristinaStd";
 	src: url('/fonts/PristinaStd.ttf');
+}
+@font-face {
+	font-family: "Product Sans";
+	src: url('/fonts/ProductSans.ttf');
 }
 a {
   text-decoration: none;
